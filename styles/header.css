@@ -1,0 +1,49 @@
+body {
+  background-image: url("../images/backgound_image.jpg");
+}
+
+header {
+  height: 90px;
+  background-color: whitesmoke;
+  border-radius: 30px;
+  margin-top: 15px;
+  width: 100vw;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-container {
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li > a {
+  font-weight: bold;
+  color: black;
+  font-size: larger;
+}
+
+.order-phone > div {
+  font-weight: bold;
+  font-size: medium;
+}
+
+.menu-button > a {
+  text-decoration: none;
+  font-size: medium;
+  font-weight: bold;
+  padding: 4px;
+  color: black;
+}
+
+.menu-button {
+  border: 1px solid black;
+  border-radius: 4px;
+}
